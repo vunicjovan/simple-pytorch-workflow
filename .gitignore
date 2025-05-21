@@ -16,4 +16,4 @@ wheels/
 logs/
 
 # Model files
-models/
+stored-models/
