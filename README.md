@@ -1,12 +1,14 @@
 # simple-pytorch-workflow
 
-A minimal Python project demonstrating a simple PyTorch workflow, including data generation, train-test splitting, and visualization with Matplotlib.
+A minimal Python project demonstrating a simple PyTorch workflow, including data generation, train-test splitting, model training, saving/loading, and visualization with Matplotlib.
 
 ## Features
 
 - Device-agnostic PyTorch code (CPU/GPU)
 - Synthetic linear data generation
 - Train/test split
+- Model training and evaluation
+- Model saving and loading
 - Data visualization with Matplotlib
 - Logging setup
 - Dependency management with [UV](https://github.com/astral-sh/uv)
@@ -23,7 +25,6 @@ A minimal Python project demonstrating a simple PyTorch workflow, including data
 
    ```sh
    uv sync
-   ```
 
 ## Usage
 Run the main script with:
